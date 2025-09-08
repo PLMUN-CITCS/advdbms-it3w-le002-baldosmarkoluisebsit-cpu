@@ -1,11 +1,6 @@
-CREATE DATABASE UniversityDB;
-
-USE UniversityDB;
-
-CREATE TABLE Students (
-    StudentID INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    FirstName VARCHAR(50) NOT NULL,
-    LastName VARCHAR(50) NOT NULL,
-    EnrollmentDate DATE,
-    Email VARCHAR(100)
-);
+StudentID int(11) NO PRI NULL auto_increment;
+FirstName varchar(50) NO NULL ;
+LastName varchar(50) NO NULL ;
+EnrollmentDate date YES NULL ;
+Email varchar(100) YES NULL ;
+Actual:
